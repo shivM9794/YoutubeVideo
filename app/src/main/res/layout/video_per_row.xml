@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_margin="6dp"
+    android:elevation="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <WebView
+            android:id="@+id/video_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </WebView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+           android:layout_alignParentBottom="true"
+            android:background="@color/black"
+            android:text="View Full Screen"
+            android:textAllCaps="false"
+            android:id="@+id/fullscreen"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
